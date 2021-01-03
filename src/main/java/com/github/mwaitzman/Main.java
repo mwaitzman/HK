@@ -10,10 +10,10 @@ public class Main {
     public static void main(String[] args) {
         // Insert your bot's token here
         Dotenv dotenv = Dotenv.load();
-        final String token = dotenv.get("DISCORD_BOT_TOKEN");
+        final String Discord_Bot_Token = dotenv.get("DISCORD_BOT_TOKEN");
 
 
-        DiscordApi api = new DiscordApiBuilder().setToken(token).login().join();
+        DiscordApi api = new DiscordApiBuilder().setToken(Discord_Bot_Token).login().join();
 
         // Add a listener which answers with "Pong!" if someone writes "!ping"
         api.addMessageCreateListener(event -> {
