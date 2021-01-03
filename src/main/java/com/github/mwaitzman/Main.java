@@ -2,8 +2,6 @@ package com.github.mwaitzman;
 
 import org.javacord.api.DiscordApi;
 import org.javacord.api.DiscordApiBuilder;
-import java.io.FileReader;
-import java.io.File;
 import io.github.cdimascio.dotenv.Dotenv;
 public class Main {
 
