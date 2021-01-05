@@ -1,0 +1,11 @@
+onEvent(MessageSentFromOthers {
+    if ( message.toLowerCase().equals("uwu) ) {
+        for (int i = 0; i < message.getSender().get("UwU Offenses"); i++) {
+            new MessageBuilder()
+                .addText("You have said uwu. This is what you get")
+                .addImage("phallicImage0.png")
+                .build()
+                .sendToDM(get(message.author());
+        }
+    }
+}
